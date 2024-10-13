@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resposnive</title>
+  </head>
+  <body>
+    <!--Nviagtion bar-->
+    <header>
+      <div class="logo">
+        <a href="#">Extreme</a>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <div class="menu">
+        <span class="menuline"></span>
+        <span class="menuline"></span>
+        <span class="menuline"></span>
+      </div>
+    </header>
+    <!--title heoo section-->
+    <aside>
+      <div class="title-name">
+        <a href="#">EXTREME</a>
+      </div>
+      <div class="para">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ut
+          ratione placeat iure tempora magnam reprehenderit fugiat voluptates
+          sint perferendis repudiandae recusandae, quidem veniam nulla explicabo
+          animi velit a odit!
+        </p>
+      </div>
+      <div class="btns">
+        <button>Quick Book</button>
+        <button>Reviews</button>
+        <button>Learn more</button>
+      </div>
+    </aside>
+    <!--section-->
+    <section>
+      <article>
+        <!--article 1-->
+        <img
+          src="pictures/friends-eating-conversating-restaurant.jpg"
+          height="150px"
+          alt=""
+        />
+        <a href="#">Party Room</a>
+
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+          maiores alias sint corrupti magnam porro, necessitatibus veritatis.
+          Porro, rem odit?
+        </p>
+        <button>Book Now</button>
+      </article>
+
+      <article>
+        <!--article 2-->
+        <img
+          src="pictures/pexels-chanwalrus-941861.jpg"
+          height="150px"
+          alt=""
+        />
+        <a href="#">VIP Hall</a>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, expedita
+          quam placeat animi repudiandae dolores magnam in omnis cum aliquid.
+        </p>
+        <button>Book Now</button>
+      </article>
+
+      <article>
+        <!--article 3-->
+        <img
+          src="pictures/pexels-igor-starkov-233202-1307698.jpg"
+          height="150px"
+          alt=""
+        />
+        <a href="#">Premium Dining</a>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+          doloribus maxime voluptatum et reiciendis accusantium omnis labore
+          natus deleniti rem!
+        </p>
+        <button>Book Now</button>
+      </article>
+    </section>
+    <!--footer-->
+    <footer>
+      <ul class="footer-link">
+        <li><a href="#">About</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Policy</a></li>
+        <li><a href="#">Terms of service</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="address">
+        <address>
+          <h4>JK Extreme</h4>
+          <p>
+            Rakkiyapalayam Tiruppur <br />
+            pincode:641606 <br />
+            Phone:12345678 <br />
+            Email: <a href="#">jk@gmail.com </a><br />
+          </p>
+        </address>
+      </div>
+      <div class="copyryt">&copy;2024 Jk Extreme All rights reserved.</div>
+    </footer>
+  </body>
+
+  <!--java script-->
+  <script>
+    const menu = document.querySelector(".menu");
+    const menuList = document.querySelector("nav ul");
+    menu.addEventListener("click", () => {
+      menuList.classList.toggle("showmenu");
+    });
+  </script>
+</html>
